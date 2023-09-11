@@ -1,0 +1,28 @@
+---
+import bun from '../../public/favicon.svg?raw'
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Bun {Bun.version}</title>
+	</head>
+	<body>
+    <Fragment set:html={bun}/>
+		<h1>Bun {Bun.version}</h1>
+	</body>
+
+  <style>
+    body {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-family: sans-serif;
+    }
+  </style>
+</html>

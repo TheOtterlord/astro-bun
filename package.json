@@ -1,0 +1,17 @@
+{
+  "name": "astro-bun",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "bun --bun astro dev",
+    "start": "bun --bun astro dev",
+    "build": "bun --bun astro build",
+    "preview": "bun --bun astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/node": "^6.0.0",
+    "astro": "^3.0.12",
+    "bun-types": "^1.0.1"
+  }
+}
